@@ -1,0 +1,73 @@
+{
+    "name": "Benjamin Boy",
+    "job": "Web developer with appetency for front-end",
+    "aboutTitle": "About",
+    "aboutContent": [
+        "From an original training in the graphic industry to a career change to become a web developer, passionate about music, fond of hiking and surfing, I seek to put my knowledge and my skills to good use.",
+        "Being experienced in graphic jobs, I am naturally committing myself to front-end development with the use of css, sass, tailwind, React and other frameworks and libraries on top of good knowledge of Javascript."
+    ],
+    "aboutHireMeTitle": "Experiences",
+    "aboutHireMeContent": "Want a more precise look at my professional journey? Just click on the button!",
+    "resumeButtonText": "Resume.pdf",
+    "skillsTitle": "Skills",
+    "skillsIDoTitle": "What can I do?",
+    "skillsIDoContent": [
+        "Thanks to experiences in various areas, I was able to acquire complementary skills and expertise.",
+        "- Use of programming languages suited to the needs (Javascript, React, Sass, Tailwind, C#, etc.)",
+        "- Ability to visualize what the team needs and to accurately translate it.",
+        "- Building modular, component-driven, easily maintainable and scalable websites and applications",
+        "- Designing and prototyping websites and translating them to code (Figma, Photoshop, Adobe XD)",
+        "- Great level in writing in French as well as in English"
+    ],
+    "skillsHireMeTitle": "Why hire me?",
+    "skillsHireMeContent": [
+        "Technical sills may be important, but human and relational skills are not the least also.",
+        "Various trainings and companies environments taught me essential skills for the best integration in a new team.",
+        "- Capacity of adaptation",
+        "- Spirit of initiative in mastered fields",
+        "- Great versatiliy",
+        "- Open-minded and sociable",
+        "- Thirst for knowledge "
+    ],
+    "worksTitle": "Works",
+    "worksTypes": [
+        "personal",
+        "formation",
+        "WIP",
+        "pro"
+    ],
+    "worksEntity": [
+        {
+            "id": 1,
+            "name": "Todo List",
+            "description": "A simple todo list made with React and Sass"
+        },
+        {
+            "id": 2,
+            "name": "Blog",
+            "description": "If you like to read lorem poems, it is the place to be"
+        },
+        {
+            "id": 3,
+            "name": "Randogram",
+            "description": "Hike there for fresh & virtual air"
+        },
+        {
+            "id": 4,
+            "name": "Via",
+            "description": "A social app that connects you to your neighbourhood"
+        }
+    ],
+    "contactTitle": "Contact",
+    "contactNameInput": "Name",
+    "contactEmailInput": "Email",
+    "contactMessageInput": "Message",
+    "contactSendButtonText": "Send",
+    "navLinks": [
+        "Home",
+        "About",
+        "Skills",
+        "Works",
+        "Contact"
+    ]
+}

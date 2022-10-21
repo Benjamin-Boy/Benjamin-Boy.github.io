@@ -1,0 +1,73 @@
+{
+    "name": "Benjamin Boy",
+    "job": "Développeur web front-end",
+    "aboutTitle": "À propos",
+    "aboutContent": [
+        "Graphiste de formation reconverti en développeur web, passionné de musique, amateur de randonnées et de surf, je cherche aujourd'hui à mettre en pratique mes connaissances et compétences.",
+        "Avec des expériences significatives dans le milieu du graphisme, c'est tout naturellement au front-end que je me destine : CSS, SASS, Tailwind, React... Voilà ce qui m'intéresse !"
+    ],
+    "aboutHireMeTitle": "Expérience",
+    "aboutHireMeContent": "Pour avoir une idée plus précise de mon parcours, cliquez sur le bouton !",
+    "resumeButtonText": "Curriculum.pdf",
+    "skillsTitle": "Compétences",
+    "skillsIDoTitle": "Ce que je sais faire.",
+    "skillsIDoContent": [
+        "Avec des expériences issues de domaines différents, j'ai acquis des compétences et des savoir-faire complémentaires.",
+        "- Utilisation des languages de programmation , de frameworks et de bibliothèques adaptés aux besoins (Javascript, C#, React, Sass, Tailwind, etc.)",
+        "- Capacité à visualiser la demande et à la restranscrire fidèlement",
+        "- Construction de sites et d'applications de manière modulaire, claire, soutenable et évolutive",
+        "- Création et intégration de maquettes avec Figma, Photoshop, Adobe XD",
+        "- Qualité dans la rédaction en Français comme en Anglais"
+    ],
+    "skillsHireMeTitle": "Ce que je peux apporter.",
+    "skillsHireMeContent": [
+        "Les compétences techniques sont une choses, les compétences humaines et relationnelles en sont une autre.",
+        "Grâce aux différentes formations que j'ai suivies et aux entreprises variées que j'ai connues, je peux offrir des compétences indispensables à une bonne intégration.",
+        "- Capacité d'adaptation",
+        "- Prise d'intiative sur des champs maîtrisés",
+        "- Grande adaptabilité",
+        "- Ouvert et sociable",
+        "- Volonté d'apprendre"
+    ],
+    "worksTitle": "Expériences",
+    "worksTypes": [
+        "personnel",
+        "formation",
+        "WIP",
+        "pro"
+    ],
+    "worksEntity": [
+        {
+            "id": 1,
+            "name": "Todo List",
+            "description": "Une simple todo list créée avec React et Sass"
+        },
+        {
+            "id": 2,
+            "name": "Blog",
+            "description": "Un petit blog réalisé avec React, Sass et Strapi pour le backend"
+        },
+        {
+            "id": 3,
+            "name": "Randogram",
+            "description": "Un site centré sur les médias permettant de montrer et voir des randonnées"
+        },
+        {
+            "id": 4,
+            "name": "Via",
+            "description": "Un réseau social qui connecte les voisins entre eux"
+        }
+    ],
+    "contactTitle": "Contact",
+    "contactNameInput": "Nom",
+    "contactEmailInput": "Email",
+    "contactMessageInput": "Message",
+    "contactSendButtonText": "Envoyer",
+    "navLinks": [
+        "Accueil",
+        "À propos",
+        "Compétences",
+        "Expériences",
+        "Contact"
+    ]
+}
