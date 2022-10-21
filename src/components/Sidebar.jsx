@@ -1,6 +1,3 @@
-import { useState } from "react";
-import PropTypes from "prop-types";
-
 // Imports React Components
 import ThemeToggle from "./ThemeToggle";
 import LangToggle from "./LangToggle";
@@ -22,7 +19,5 @@ const Sidebar = () => {
     </div>
   );
 };
-
-Sidebar.propTypes = {};
 
 export default Sidebar;

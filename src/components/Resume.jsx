@@ -7,6 +7,7 @@ import resumeFr from "../assets/pdf/resume-fr.pdf";
 
 const Resume = () => {
   const { lang } = useInteractionsContext();
+
   return (
     <>
       <iframe

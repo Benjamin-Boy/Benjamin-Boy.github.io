@@ -1,5 +1,3 @@
-import React from "react";
-
 // Imports React Components
 import {
   Home,
@@ -13,7 +11,7 @@ import {
 
 const App = () => {
   return (
-    <div className="app-container">
+    <div>
       <Navbar />
       <Home />
       <About />

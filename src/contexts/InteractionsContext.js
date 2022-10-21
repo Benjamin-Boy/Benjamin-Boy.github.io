@@ -1,11 +1,8 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 // Imports language files
 import enLangContent from "../lang/en.json";
 import frLangContent from "../lang/fr.json";
-
-// import enLang from "../lang/en.json";
-// import frLang from "../lang/fr.json";
 
 const InteractionsContext = createContext();
 
@@ -18,6 +15,7 @@ const initialState = {
   lang: "en",
   sidebarOpen: false,
   slideIndex: 0,
+  resumeOpen: false,
 };
 
 const InteractionsContextProvider = ({ children }) => {
@@ -28,7 +26,6 @@ const InteractionsContextProvider = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [slideIndex, setSlideIndex] = useState(0);
   const [resumeOpen, setResumeOpen] = useState(false);
-  const [resumeEffect, setResumeEffect] = useState("closed");
 
   const handleTheme = () => {
     setDarkTheme(!darkTheme);
@@ -52,7 +49,6 @@ const InteractionsContextProvider = ({ children }) => {
   };
 
   const handleResume = () => {
-    setResumeEffect("open");
     setResumeOpen(!resumeOpen);
   };
 
@@ -70,7 +66,6 @@ const InteractionsContextProvider = ({ children }) => {
         handleSidebar,
         resumeOpen,
         handleResume,
-        resumeEffect,
       }}
     >
       {children}

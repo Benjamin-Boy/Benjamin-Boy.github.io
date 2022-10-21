@@ -1,13 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-
 // Imports custom contexts
 import { useInteractionsContext } from "../contexts/InteractionsContext";
 
 // Import React icons
 import { SiGithub, SiTwitter, SiLinkedin } from "react-icons/si";
 
-const Footer = (props) => {
+const Footer = () => {
   const { darkTheme } = useInteractionsContext();
 
   return (
@@ -46,7 +43,5 @@ const Footer = (props) => {
     </div>
   );
 };
-
-Footer.propTypes = {};
 
 export default Footer;

@@ -23,8 +23,6 @@ const About = () => {
     handleResume,
   } = useInteractionsContext();
 
-  console.log(resumeOpen);
-
   return (
     <div
       className={`${

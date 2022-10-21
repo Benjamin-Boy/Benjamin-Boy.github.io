@@ -21,15 +21,6 @@ const PageDot = () => {
             </span>
           );
         })}
-        {/* <span className="w-5 h-5 border border-1 border-[#181818] rounded-full flex justify-center items-center hover:bg-[#181818] dark:border-[#fdfaf0] dark:hover:bg-[#fdfaf0]">
-          <span className="flex justify-center items-center w-[70%] h-[70%] bg-[#181818] rounded-full dark:bg-[#fdfaf0]"></span>
-        </span>
-        <span className="w-5 h-5 border border-1 border-[#181818] rounded-full flex justify-center items-center hover:bg-[#181818]  dark:border-[#fdfaf0] dark:hover:bg-[#fdfaf0]">
-          <span className="hidden justify-center items-center w-[70%] h-[70%] bg-[#181818] rounded-full dark:bg-[#fdfaf0]"></span>
-        </span>
-        <span className="w-5 h-5 border border-1 border-[#181818] rounded-full flex justify-center items-center hover:bg-[#181818]  dark:border-[#fdfaf0] dark:hover:bg-[#fdfaf0]">
-          <span className="hidden justify-center items-center w-[70%] h-[70%] bg-[#181818] rounded-full dark:bg-[#fdfaf0]"></span>
-        </span> */}
       </div>
     </div>
   );

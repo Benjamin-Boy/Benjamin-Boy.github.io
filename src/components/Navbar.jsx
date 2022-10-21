@@ -1,7 +1,3 @@
-import { useState } from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-scroll";
-
 // Imports React Components
 import Sidebar from "./Sidebar";
 import ThemeToggle from "./ThemeToggle";
@@ -44,7 +40,5 @@ const Navbar = () => {
     </div>
   );
 };
-
-Navbar.propTypes = {};
 
 export default Navbar;

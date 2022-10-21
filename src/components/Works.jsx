@@ -1,5 +1,3 @@
-import React from "react";
-
 // Imports React components
 import PageDot from "./PageDot";
 

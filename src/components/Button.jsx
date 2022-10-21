@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-scroll";
 
@@ -30,6 +29,8 @@ const Button = ({ text }) => {
   );
 };
 
-Button.propTypes = {};
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Button;
