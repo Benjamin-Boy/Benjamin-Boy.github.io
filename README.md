@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<div style="background-color:#282C34; color:#B0B0B1">
+<h1 align="center">Welcome to Benjamin Boy's profile!</h1>
+<h2 align="center" style="margin-bottom:20px; font-size:1.5rem">Web developer</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=benjamin-boy&theme=onedark&show_icons=true" alt="Github Stats" height="180em"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=benjamin-boy&theme=onedark&langs_count=10&layout=compact" height="180em" />
+</p>
 
-## Available Scripts
+<h3 align="center">Recently landed on the development planet, I'm always seeking new paths to follow and new things to learn.</h3>
+<h3 align="center">Don't hesitate to get in touch!</h3>
 
-In the project directory, you can run:
+</br>
 
-### `npm start`
+> ### Tech I use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div style="margin-left:20px">
+<img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" style="margin: 0 5px"/>
+<img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white"  style="margin: 0 5px"/>
+<img alt="htm5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"  style="margin: 0 5px"/>
+<img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"  style="margin: 0 5px"/>
+<img alt="Javascript" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" />
+<img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black"  style="margin: 0 5px"/>
+<img alt="sass" src="https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=white"  style="margin: 0 5px"/>
+<img alt="tailwind" src="https://img.shields.io/badge/-Tailwind CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"  style="margin: 0 5px"/>
+<img alt="strapi" src="https://img.shields.io/badge/-Strapi-2F2E8B?style=flat-square&logo=strapi&logoColor=white"  style="margin: 0 5px"/>
+<img alt="figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"  style="margin: 0 5px"/>
+<img alt="postgres" src="https://img.shields.io/badge/-PostgresQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"  style="margin: 0 5px"/>
+<img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=white"  style="margin: 0 5px"/>
+</div>
 
-### `npm test`
+</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> ### Tech I'm learning
 
-### `npm run build`
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div style="margin-left:20px">
+<img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white"  style="margin: 0 5px"/>
+<img alt="typeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"  style="margin: 0 5px"/>
+<img alt="graphql" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"  style="margin: 0 5px"/>
+<img alt="React-Native" src="https://img.shields.io/badge/-React--Native-45b8d8?style=flat-square&logo=react&logoColor=white"  style="margin: 0 5px"/>
+<img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white"  style="margin: 0 5px"/>
+</div>
+</br>
+<!-- ### Open source projects -->
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ### Let's connect!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</br>
 
-### `npm run eject`
+<div style="margin: 0 0 40px 20px">
+<img alt="Twitter" src="https://img.shields.io/twitter/follow/Leomhann?label=Follow&style=social" />
+<img alt="Twitter" src="https://img.shields.io/github/followers/benjamin-boy?style=social" />
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+<a href="https://app.daily.dev/Leomhann"><img src="https://api.daily.dev/devcards/a7321d7fda8547649ac78946fa5b5794.png?r=w9w" width="350" alt="Benjamin's Dev Card"/></a>
+</p>
