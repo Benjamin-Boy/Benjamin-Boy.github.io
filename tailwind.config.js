@@ -24,8 +24,8 @@ module.exports = {
           "100%": { transform: "translateX(0)" },
         },
         resumeToggleReverse: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(100%)" },
+          "0%": { transform: "translateX(0) scaleX(1)" },
+          "100%": { transform: "translateX(100%) scaleX(0)" },
         },
       },
       animation: {

@@ -14,6 +14,7 @@ import {
 import todoListImg from "../assets/images/todo-list.png";
 import blogImg from "../assets/images/blog.png";
 import randogramImg from "../assets/images/randogram.png";
+import viaImg from "../assets/images/via.png";
 
 import enLangContent from "../lang/en.json";
 import frLangContent from "../lang/fr.json";
@@ -97,7 +98,7 @@ export const worksData = [
     name: "Blog",
     description: "If you like to read lorem poems, it is the place to be",
     github: "https://github.com/Benjamin-Boy/blog-app",
-    host: "",
+    host: "https://bennyblog.netlify.app/",
     image: blogImg,
     tags: [
       {
@@ -148,7 +149,7 @@ export const worksData = [
     description: "A social app that connects you to your neighbourhood",
     github: "https://github.com/O-clock-Daguerre/projet-08-via",
     host: "",
-    image: "",
+    image: viaImg,
     tags: [
       {
         skillId: skillsData[7].id,
@@ -178,9 +179,3 @@ export const worksData = [
     ],
   },
 ];
-
-// export const contentData = [
-//   {
-
-//   }
-// ]
