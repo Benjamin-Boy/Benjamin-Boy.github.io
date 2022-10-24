@@ -38,19 +38,20 @@ export const skillsData = [
   },
   {
     id: 4,
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss />,
+  },
+  {
+    id: 5,
     name: "Figma",
     icon: <SiFigma />,
   },
   {
-    id: 5,
-    name: "Strapi",
-    icon: <SiTailwindcss />,
-  },
-  {
     id: 6,
-    name: "Tailwind CSS",
+    name: "Strapi",
     icon: <SiStrapi />,
   },
+
   {
     id: 7,
     name: "Express",
