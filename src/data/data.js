@@ -3,6 +3,7 @@ import {
   SiExpress,
   SiNodedotjs,
   SiSass,
+  SiTailwindcss,
   SiFigma,
   SiStrapi,
   SiPostgresql,
@@ -27,46 +28,52 @@ export const skillsData = [
   },
   {
     id: 2,
-    name: "Express",
-    icon: <SiExpress />,
-  },
-  {
-    id: 3,
-    name: "NodeJs",
-    icon: <SiNodedotjs />,
-  },
-  {
-    id: 4,
-    name: "SASS",
-    icon: <SiSass />,
-  },
-  {
-    id: 5,
-    name: "Figma",
-    icon: <SiFigma />,
-  },
-  {
-    id: 6,
-    name: "Strapi",
-    icon: <SiStrapi />,
-  },
-  {
-    id: 7,
-    name: "PostgresQL",
-    icon: <SiPostgresql />,
-  },
-  {
-    id: 8,
     name: "React",
     icon: <SiReact />,
   },
   {
+    id: 3,
+    name: "SASS",
+    icon: <SiSass />,
+  },
+  {
+    id: 4,
+    name: "Figma",
+    icon: <SiFigma />,
+  },
+  {
+    id: 5,
+    name: "Strapi",
+    icon: <SiTailwindcss />,
+  },
+  {
+    id: 6,
+    name: "Tailwind CSS",
+    icon: <SiStrapi />,
+  },
+  {
+    id: 7,
+    name: "Express",
+    icon: <SiExpress />,
+  },
+  {
+    id: 8,
+    name: "NodeJs",
+    icon: <SiNodedotjs />,
+  },
+  {
     id: 9,
+    name: "PostgresQL",
+    icon: <SiPostgresql />,
+  },
+
+  {
+    id: 10,
     name: "GraphQL",
     icon: <SiGraphql />,
   },
   {
-    id: 10,
+    id: 11,
     name: "MongoDB",
     icon: <SiMongodb />,
   },
