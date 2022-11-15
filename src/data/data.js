@@ -92,7 +92,7 @@ export const worksData = [
     name: "Shopper",
     description: "Shop everywhere, everytime you want !",
     github: "https://github.com/Benjamin-Boy/shopper-app",
-    host: "",
+    host: "https://shopperify.netlify.app/",
     image: shopperImg,
     tags: [
       {
