@@ -31,6 +31,7 @@ const InteractionsContextProvider = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [resumeOpen, setResumeOpen] = useState(false);
   const [currentWorkPage, setCurrentWorkPage] = useState(1);
+  const [currentSkillPage, setCurrentSkillPage] = useState(1);
   const recordsPerPage = 4;
 
   const handleTheme = () => {
@@ -50,8 +51,12 @@ const InteractionsContextProvider = ({ children }) => {
     setResumeOpen(!resumeOpen);
   };
 
-  const setCurrentPage = (pageNumber) => {
+  const handleCurrentWorkPage = (pageNumber) => {
     setCurrentWorkPage(pageNumber);
+  };
+
+  const handleCurrentSkillPage = (pageNumber) => {
+    setCurrentSkillPage(pageNumber);
   };
 
   return (
@@ -69,9 +74,11 @@ const InteractionsContextProvider = ({ children }) => {
         resumeOpen,
         handleResume,
         currentWorkPage,
-        setCurrentPage,
+        handleCurrentWorkPage,
         worksData,
         recordsPerPage,
+        currentSkillPage,
+        handleCurrentSkillPage,
       }}
     >
       {children}

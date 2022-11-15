@@ -101,7 +101,7 @@ const Works = () => {
             );
           })}
         </div>
-        <PageDot />
+        <PageDot component="works" />
       </div>
     </div>
   );

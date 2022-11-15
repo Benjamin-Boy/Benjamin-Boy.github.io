@@ -8,7 +8,7 @@ import PageDot from "./PageDot";
 import { skillsData } from "../data/data";
 
 const Skills = () => {
-  const { darkTheme, lang, enLangContent, frLangContent } =
+  const { darkTheme, lang, enLangContent, frLangContent, currentSkillPage } =
     useInteractionsContext();
 
   return (
@@ -23,7 +23,10 @@ const Skills = () => {
             : frLangContent.skillsTitle}
         </h1>
         <div className="w-[80%] h-full md:flex md:flex-col md:justify-center md:gap-8 xl:flex xl:flex-row justify-center gap-8">
-          <div className="flex justify-center items-center flex-wrap gap-2 h-full xl:w-[33%]">
+          <div
+            className={`${currentSkillPage === 1 ? "flex" : "hidden"}
+              justify-center items-center flex-wrap gap-2 h-full xl:w-[33%]`}
+          >
             {skillsData.map(({ id, name, icon }) => {
               return (
                 <div
@@ -38,21 +41,11 @@ const Skills = () => {
               );
             })}
           </div>
-          {/* <div className="hidden flex-col items-center gap-2 md:flex md:justify-start md:items-start xl:flex xl:justify-start xl:items-start xl:w-[33%]">
-            <h2 className="text-2xl">
-              {lang === "en"
-                ? enLangContent.skillsIDoTitle
-                : frLangContent.skillsIDoTitle}
-            </h2>
-            {lang === "en"
-              ? enLangContent.skillsIDoContent.map((sentence) => {
-                  return <p className="text-justify">{sentence}</p>;
-                })
-              : frLangContent.skillsIDoContent.map((sentence) => {
-                  return <p className="text-justify">{sentence}</p>;
-                })}
-          </div> */}
-          <div className="hidden flex flex-col gap-2 md:flex md:justify-start md:items-start xl:flex xl:flex-row xl:justify-center xl:w-[100%]">
+          <div
+            className={`${
+              currentSkillPage === 2 ? "flex" : "hidden"
+            } flex-col gap-2 md:flex md:justify-start md:items-start xl:flex xl:flex-row xl:justify-center xl:w-[100%]`}
+          >
             <div className="xl:flex flex-col xl:justify-start xl:w-[50%] h-full">
               <h2 className="text-2xl">
                 {lang === "en"
@@ -102,7 +95,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="md:hidden">
-          <PageDot />
+          <PageDot component="skills" />
         </div>
       </div>
     </div>

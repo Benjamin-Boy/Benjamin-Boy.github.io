@@ -17,6 +17,7 @@ import todoListImg from "../assets/images/todo-list.png";
 import blogImg from "../assets/images/blog.png";
 import randogramImg from "../assets/images/randogram.png";
 import viaImg from "../assets/images/via.png";
+import shopperImg from "../assets/images/shopper.JPG";
 
 // import enLangContent from "../lang/en.json";
 // import frLangContent from "../lang/fr.json";
@@ -92,7 +93,7 @@ export const worksData = [
     description: "Shop everywhere, everytime you want !",
     github: "https://github.com/Benjamin-Boy/shopper-app",
     host: "",
-    image: todoListImg,
+    image: shopperImg,
     tags: [
       {
         skillId: skillsData[1].id,
