@@ -1,5 +1,8 @@
 import { createContext, useContext, useState } from "react";
 
+// Imports local data
+import { worksData } from "../data/data";
+
 // Imports language files
 import enLangContent from "../lang/en.json";
 import frLangContent from "../lang/fr.json";
@@ -10,13 +13,15 @@ export const useInteractionsContext = () => {
   return useContext(InteractionsContext);
 };
 
-const initialState = {
-  darkTheme: false,
-  lang: "en",
-  sidebarOpen: false,
-  slideIndex: 0,
-  resumeOpen: false,
-};
+// const initialState = {
+//   darkTheme: false,
+//   lang: "en",
+//   sidebarOpen: false,
+//   slideIndex: 0,
+//   resumeOpen: false,
+//   maxRecordsPerPage: 4,
+//   currentWorkPage: 1,
+// };
 
 const InteractionsContextProvider = ({ children }) => {
   // const [state, dispatch] = useReducer();
@@ -24,8 +29,9 @@ const InteractionsContextProvider = ({ children }) => {
   const [lang, setLang] = useState("en");
   const [langEffect, setLangEffect] = useState("en");
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [slideIndex, setSlideIndex] = useState(0);
   const [resumeOpen, setResumeOpen] = useState(false);
+  const [currentWorkPage, setCurrentWorkPage] = useState(1);
+  const recordsPerPage = 4;
 
   const handleTheme = () => {
     setDarkTheme(!darkTheme);
@@ -40,16 +46,12 @@ const InteractionsContextProvider = ({ children }) => {
     setSidebarOpen(!sidebarOpen);
   };
 
-  const handleNextTab = () => {
-    setSlideIndex((prevState) => prevState + 1);
-  };
-
-  const handlePrevTab = () => {
-    setSlideIndex((prevState) => prevState - 1);
-  };
-
   const handleResume = () => {
     setResumeOpen(!resumeOpen);
+  };
+
+  const setCurrentPage = (pageNumber) => {
+    setCurrentWorkPage(pageNumber);
   };
 
   return (
@@ -66,6 +68,10 @@ const InteractionsContextProvider = ({ children }) => {
         handleSidebar,
         resumeOpen,
         handleResume,
+        currentWorkPage,
+        setCurrentPage,
+        worksData,
+        recordsPerPage,
       }}
     >
       {children}

@@ -4,20 +4,32 @@ import React from "react";
 import { useInteractionsContext } from "../contexts/InteractionsContext";
 
 const PageDot = () => {
-  const { darkTheme } = useInteractionsContext();
+  const {
+    darkTheme,
+    worksData,
+    recordsPerPage,
+    setCurrentPage,
+    currentWorkPage,
+  } = useInteractionsContext();
 
-  const pageNb = [1, 2, 3];
+  const pageNb = Math.ceil(worksData.length / recordsPerPage);
+  const pageNumbers = [...Array(pageNb + 1).keys()].slice(1);
 
   return (
     <div className={darkTheme ? "dark" : null}>
       <div className="page-dot-container flex justify-center gap-2">
-        {pageNb.map((pageDot, index) => {
+        {pageNumbers.map((pageNumber) => {
           return (
             <span
-              key={index}
+              key={pageNumber}
               className="w-5 h-5 border border-1 border-[#181818] rounded-full flex justify-center items-center hover:bg-[#181818] dark:border-[#fdfaf0] dark:hover:bg-[#fdfaf0]"
+              onClick={() => setCurrentPage(pageNumber)}
             >
-              <span className="hidden justify-center items-center w-[70%] h-[70%] bg-[#181818] rounded-full dark:bg-[#fdfaf0]"></span>
+              <span
+                className={`${
+                  currentWorkPage === pageNumber ? "flex" : "hidden"
+                } justify-center items-center w-[70%] h-[70%] bg-[#181818] rounded-full dark:bg-[#fdfaf0]`}
+              ></span>
             </span>
           );
         })}

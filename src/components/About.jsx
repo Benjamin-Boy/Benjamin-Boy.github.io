@@ -48,15 +48,19 @@ const About = () => {
                   : frLangContent.aboutTitle}
               </h1>
               {lang === "en"
-                ? enLangContent.aboutContent.map((sentence, index) => {
+                ? enLangContent.aboutContent.map((sentence) => {
                     return (
-                      <p key={index} className="text-justify">
+                      <p key={sentence} className="text-justify">
                         {sentence}
                       </p>
                     );
                   })
                 : frLangContent.aboutContent.map((sentence) => {
-                    return <p className="text-justify">{sentence}</p>;
+                    return (
+                      <p key={sentence} className="text-justify">
+                        {sentence}
+                      </p>
+                    );
                   })}
             </div>
             <div className="flex flex-col items-center gap-2 xl:w-2/5 xl:gap-4 xl:items-start">
@@ -84,9 +88,12 @@ const About = () => {
       <div
         className={`translate-x-full ${
           !resumeOpen ? "animate-resumeToggleReverse" : "animate-resumeToggle"
-        } w-full md:w-[45%] absolute right-0 top-0 h-full flex justify-center items-start gap-4 bg-[#fdfaf0] text-[#181818] dark:bg-[#181818] dark:text-[#fdfaf0] transition duration-200 ease-in-out`}
+        } w-full md:w-[48%] absolute right-0 top-0 h-full flex justify-center items-start gap-2 bg-[#fdfaf0] text-[#181818] dark:bg-[#181818] dark:text-[#fdfaf0] transition duration-200 ease-in-out`}
       >
-        <button className="mt-4 text-2xl" onClick={handleResume}>
+        <button
+          className="h-full text-2xl bg-[#e9e9e9] px-2 hover:bg-[#fff] dark:bg-[#b7b7b7] dark:hover:bg-[#878787] transition duration-200"
+          onClick={handleResume}
+        >
           <HiOutlineChevronDoubleRight />
         </button>
         <Resume />

@@ -10,6 +10,7 @@ import {
   SiReact,
   SiGraphql,
   SiMongodb,
+  SiTypescript,
 } from "react-icons/si";
 
 import todoListImg from "../assets/images/todo-list.png";
@@ -17,8 +18,8 @@ import blogImg from "../assets/images/blog.png";
 import randogramImg from "../assets/images/randogram.png";
 import viaImg from "../assets/images/via.png";
 
-import enLangContent from "../lang/en.json";
-import frLangContent from "../lang/fr.json";
+// import enLangContent from "../lang/en.json";
+// import frLangContent from "../lang/fr.json";
 
 export const skillsData = [
   {
@@ -51,7 +52,6 @@ export const skillsData = [
     name: "Strapi",
     icon: <SiStrapi />,
   },
-
   {
     id: 7,
     name: "Express",
@@ -78,46 +78,56 @@ export const skillsData = [
     name: "MongoDB",
     icon: <SiMongodb />,
   },
+  {
+    id: 12,
+    name: "Typescript",
+    icon: <SiTypescript />,
+  },
 ];
 
 export const worksData = [
   {
     id: 1,
-    name: "Todo List",
-    description: "A simple todo list made with React and Sass",
-    github: "https://github.com/Benjamin-Boy/todolist-app",
-    host: "http://marvelous-todo.surge.sh/",
+    name: "Shopper",
+    description: "Shop everywhere, everytime you want !",
+    github: "https://github.com/Benjamin-Boy/shopper-app",
+    host: "",
     image: todoListImg,
     tags: [
       {
-        skillId: skillsData[7].id,
-        skillName: skillsData[7].name,
-        skillIcon: skillsData[7].icon,
+        skillId: skillsData[1].id,
+        skillName: skillsData[1].name,
+        skillIcon: skillsData[1].icon,
       },
       {
         skillId: skillsData[3].id,
         skillName: skillsData[3].name,
         skillIcon: skillsData[3].icon,
+      },
+      {
+        skillId: skillsData[11].id,
+        skillName: skillsData[11].name,
+        skillIcon: skillsData[11].icon,
       },
     ],
   },
   {
     id: 2,
-    name: "Blog",
-    description: "If you like to read lorem poems, it is the place to be",
-    github: "https://github.com/Benjamin-Boy/blog-app",
-    host: "https://bennyblog.netlify.app/",
-    image: blogImg,
+    name: "Randogram",
+    description: "Hike there for fresh & virtual air",
+    github: "https://github.com/Benjamin-Boy/randogram-app",
+    host: "",
+    image: randogramImg,
     tags: [
       {
-        skillId: skillsData[7].id,
-        skillName: skillsData[7].name,
-        skillIcon: skillsData[7].icon,
+        skillId: skillsData[1].id,
+        skillName: skillsData[1].name,
+        skillIcon: skillsData[1].icon,
       },
       {
-        skillId: skillsData[3].id,
-        skillName: skillsData[3].name,
-        skillIcon: skillsData[3].icon,
+        skillId: skillsData[2].id,
+        skillName: skillsData[2].name,
+        skillIcon: skillsData[2].icon,
       },
       {
         skillId: skillsData[5].id,
@@ -128,21 +138,21 @@ export const worksData = [
   },
   {
     id: 3,
-    name: "Randogram",
-    description: "Hike there for fresh & virtual air",
-    github: "https://github.com/Benjamin-Boy/randogram-app",
-    host: "",
-    image: randogramImg,
+    name: "Blog",
+    description: "If you like to read lorem poems, it is the place to be",
+    github: "https://github.com/Benjamin-Boy/blog-app",
+    host: "https://bennyblog.netlify.app/",
+    image: blogImg,
     tags: [
       {
-        skillId: skillsData[7].id,
-        skillName: skillsData[7].name,
-        skillIcon: skillsData[7].icon,
+        skillId: skillsData[1].id,
+        skillName: skillsData[1].name,
+        skillIcon: skillsData[1].icon,
       },
       {
-        skillId: skillsData[3].id,
-        skillName: skillsData[3].name,
-        skillIcon: skillsData[3].icon,
+        skillId: skillsData[2].id,
+        skillName: skillsData[2].name,
+        skillIcon: skillsData[2].icon,
       },
       {
         skillId: skillsData[5].id,
@@ -153,22 +163,12 @@ export const worksData = [
   },
   {
     id: 4,
-    name: "Via",
-    description: "A social app that connects you to your neighbourhood",
-    github: "https://github.com/O-clock-Daguerre/projet-08-via",
-    host: "",
-    image: viaImg,
+    name: "Todo List",
+    description: "A simple todo list made with React and Sass",
+    github: "https://github.com/Benjamin-Boy/todolist-app",
+    host: "http://marvelous-todo.surge.sh/",
+    image: todoListImg,
     tags: [
-      {
-        skillId: skillsData[7].id,
-        skillName: skillsData[7].name,
-        skillIcon: skillsData[7].icon,
-      },
-      {
-        skillId: skillsData[3].id,
-        skillName: skillsData[3].name,
-        skillIcon: skillsData[3].icon,
-      },
       {
         skillId: skillsData[1].id,
         skillName: skillsData[1].name,
@@ -178,6 +178,36 @@ export const worksData = [
         skillId: skillsData[2].id,
         skillName: skillsData[2].name,
         skillIcon: skillsData[2].icon,
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "Via",
+    description: "A social app that connects you to your neighbourhood",
+    github: "https://github.com/O-clock-Daguerre/projet-08-via",
+    host: "",
+    image: viaImg,
+    tags: [
+      {
+        skillId: skillsData[1].id,
+        skillName: skillsData[1].name,
+        skillIcon: skillsData[1].icon,
+      },
+      {
+        skillId: skillsData[2].id,
+        skillName: skillsData[2].name,
+        skillIcon: skillsData[2].icon,
+      },
+      {
+        skillId: skillsData[7].id,
+        skillName: skillsData[7].name,
+        skillIcon: skillsData[7].icon,
+      },
+      {
+        skillId: skillsData[8].id,
+        skillName: skillsData[8].name,
+        skillIcon: skillsData[8].icon,
       },
       {
         skillId: skillsData[6].id,

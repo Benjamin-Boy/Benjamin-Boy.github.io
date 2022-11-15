@@ -39,21 +39,26 @@
     "worksEntity": [
         {
             "id": 1,
-            "name": "Todo List",
-            "description": "A simple todo list made with React and Sass"
+            "name": "Shopper",
+            "description": "Shop everywhere, everytime you want !"
         },
         {
             "id": 2,
-            "name": "Blog",
-            "description": "If you like to read lorem poems, it is the place to be"
-        },
-        {
-            "id": 3,
             "name": "Randogram",
             "description": "Hike there for fresh & virtual air"
         },
         {
+            "id": 3,
+            "name": "Blog",
+            "description": "If you like to read lorem poems, it is the place to be"
+        },
+        {
             "id": 4,
+            "name": "Todo List",
+            "description": "A simple todo list made with React and Sass"
+        },
+        {
+            "id": 5,
             "name": "Via",
             "description": "A social app that connects you to your neighbourhood"
         }

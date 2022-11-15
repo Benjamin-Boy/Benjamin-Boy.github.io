@@ -39,21 +39,26 @@
     "worksEntity": [
         {
             "id": 1,
-            "name": "Todo List",
-            "description": "Une simple todo list créée avec React et Sass"
+            "name": "Shopper",
+            "description": "Shop everywhere, everytime you want !"
         },
         {
             "id": 2,
-            "name": "Blog",
-            "description": "Un petit blog réalisé avec React, Sass et Strapi pour le backend"
-        },
-        {
-            "id": 3,
             "name": "Randogram",
             "description": "Un site centré sur les médias permettant de montrer et voir des randonnées"
         },
         {
+            "id": 3,
+            "name": "Blog",
+            "description": "Un petit blog réalisé avec React, Sass et Strapi pour le backend"
+        },
+        {
             "id": 4,
+            "name": "Todo List",
+            "description": "Une simple todo list créée avec React et Sass"
+        },
+        {
+            "id": 5,
             "name": "Via",
             "description": "Un réseau social qui connecte les voisins entre eux"
         }
