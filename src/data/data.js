@@ -11,6 +11,7 @@ import {
   SiGraphql,
   SiMongodb,
   SiTypescript,
+  SiRedux,
 } from "react-icons/si";
 
 import todoListImg from "../assets/images/todo-list.png";
@@ -84,6 +85,11 @@ export const skillsData = [
     name: "Typescript",
     icon: <SiTypescript />,
   },
+  {
+    id: 13,
+    name: "Redux/Toolkit",
+    icon: <SiRedux />,
+  },
 ];
 
 export const worksData = [
@@ -109,6 +115,11 @@ export const worksData = [
         skillId: skillsData[11].id,
         skillName: skillsData[11].name,
         skillIcon: skillsData[11].icon,
+      },
+      {
+        skillId: skillsData[12].id,
+        skillName: skillsData[12].name,
+        skillIcon: skillsData[12].icon,
       },
     ],
   },
